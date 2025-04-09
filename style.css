@@ -430,3 +430,22 @@ footer {
 footer p {
   text-align: center;
 }
+
+.hidden {
+  display: none;
+}
+
+.expand-toggle {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.icon.arrow {
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.icon.arrow.rotated {
+  transform: rotate(180deg);
+}
