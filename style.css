@@ -441,11 +441,11 @@ footer p {
   margin-top: 1rem;
 }
 
-.icon.arrow {
+.icon.arrow2 {
   width: 30px;
   transition: transform 0.3s ease;
 }
 
-.icon.arrow.rotated {
+.icon.arrow2.rotated {
   transform: rotate(180deg);
 }

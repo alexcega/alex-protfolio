@@ -9,7 +9,7 @@ function toggleMenu() {
 
 function toggleCerts() {
     const moreCerts = document.querySelector(".more-certs");
-    const arrow = document.querySelector(".expand-toggle .arrow");
+    const arrow = document.querySelector(".expand-toggle .arrow2");
 
     moreCerts.classList.toggle("hidden");
     arrow.classList.toggle("rotated");
