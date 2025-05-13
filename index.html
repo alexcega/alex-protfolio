@@ -96,8 +96,8 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>+2 years <br />Software Developer</p>
-              <p>~1 year <br/> AI Developer</p>
+              <p>+2 years Software Developer</p>
+              <p>1 year  AI Developer</p>
             </div>
             <div class="details-container">
               <img
@@ -256,28 +256,37 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
+        <div class="projects-grid">
+          <!-- project 1 -->
+          <div class="project-card" >
+            <div class="project-image">
               <img
                 src="./assets/Projects/ffp.png"
                 alt="FFP"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Firefighter Problem</h2>
+            <h2 class="project-title">Firefighter Problem</h2>
+            <p class="project-desc">A greedy approach to the Firefighter Problem. Simulates node saving solving combinatorial optimization problems with hyper-heuristics through evolutive programming</p>
+            <div class="badge-container">
+              <span class="project-badge badge-ml">ML</span>
+              <span class="project-badge badge-simulation">Simulation</span>
+              <span class="project-badge badge-genai">Gen ai</span>
+            </div>
+            
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/alexcega/Firefighter-Problem'"
+                onclick="window.open('https://github.com/alexcega/Firefighter-Problem', '_blank')"
               >
                 Github
               </button>
 
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
+          <!-- project 2 -->
+          <div class="project-card">
+            <div class="project-image">
               <img
                 src="./assets/Projects/texture analysis.png"
                 alt="Project 2"
@@ -285,64 +294,140 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Texture Analysis for DL models</h2>
+            <p class="project-desc">Published XAI methods to improve the interpretability for cancer based on Texture analysis and DL models such as DeepLabV3,
+              FCN and U-Net.</p>
+
+            <div class="badge-container">
+              <span class="project-badge badge-dl">DL</span>
+              <span class="project-badge badge-cv">CV</span>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/xrai-lib/xai-texture'"
+                onclick="window.open('https://github.com/xrai-lib/xai-texture', '_blank' )"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://hal.science/hal-04562334v1/file/113_explainability_in_deep_learning.pdf'"
+                onclick="window.open('https://hal.science/hal-04562334v1/file/113_explainability_in_deep_learning.pdf', '_blank')"
               >
                 Paper
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
+          <!-- project 3 -->
+          <div class="project-card">
+            <div class="project-image">
               <img
                 src="./assets/Projects/p2p.png"
-                alt="Project 3"
+                alt="Project 3: pix 2 pix"
                 class="project-img"
               />
             </div>
             
-            <h2 class="experience-sub-title project-title">Pix 2 Pix Experimentation</h2>
+            <h2 class="experience-sub-title project-title">Pix 2 Pix  <br> Experimentation</h2>
+            <p class="project-desc">Implemented and customized the Pix2Pix GAN architecture to perform image-to-image translation using alternative
+              datasets.</p> 
+
+            <div class="badge-container">
+              <span class="project-badge badge-dl">DL</span>
+              <span class="project-badge badge-cv">CV</span>
+              <span class="project-badge badge-genai">Gen ai</span>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/alexcega/pix2pix?tab=readme-ov-file'"
+                onclick="window.open('https://github.com/alexcega/pix2pix?tab=readme-ov-file', '_blank')"
               >
                 Github
               </button>
               
             </div>
           </div>
-
-          <!-- <div class="details-container color-container">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  FRONT OF CARD
-                  <img src="./assets/Projects/ffp.png" alt="FFP" class="project-img" />
-                  <h2 class="experience-sub-title project-title">Firefighter Problem</h2>
-                </div>
-                <div class="flip-card-back">
-                  BACK OF CARD
-                  <p>A greedy approach to the Firefighter Problem. Simulates node saving under various conditions.</p>
-                  <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alexcega/Firefighter-Problem'">
-                      Github
-                    </button>
-                  </div>
-                </div>
+        </div>
+          <!-- project 4 -->
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="./assets/Projects/carla_simulator.png"
+                  alt="Project 4: Carla simulator"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Autonomus Prime</h2>
+              <p class="project-desc">Implemented a self-driving car using Carla simulator. Using LiDAR data on real time for object detection.</p>
+              <div class="badge-container">
+                <span class="project-badge badge-cv">CV</span>
+                <span class="project-badge badge-simulation">Simulation</span>
+                <span class="project-badge badge-robotics">Robotics</span>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/sarosh2/Autonomous_Prime', '_blank')"
+                >
+                  Github
+                </button>
+  
               </div>
             </div>
-            
-          </div> -->
-        </div>
+
+            <!-- project 5 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="./assets/Projects/Ros_project.png"
+                  alt="Project 5: Ros"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Mobile Robot Sensorization with Ros</h2>
+              <p class="project-desc">Worked on the simulation, control, and modeling of a mobile robot designed to navigate in a simulated restaurant across different obstacles</p>
+              <div class="badge-container">
+                <span class="project-badge badge-cv">CV</span>
+                <span class="project-badge badge-simulation">Simulation</span>
+                <span class="project-badge badge-robotics">Rotbotics</span>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/mirabud/robotics-project-1', '_blank')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+
+            <!-- project 6 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="./assets/Projects/ball2.png"
+                  alt="Project 6: "
+                  class="project-img"
+                />
+              </div>
+              
+              <h2 class="experience-sub-title project-title">Image tracking <br> Open CV</h2>
+              <p class="project-desc">Object tracking using OpenCV’s MeanShift and CamShift algorithms. Video tracking by leveraging color-based techniques and contour detection</p>
+              <div class="badge-container">
+                <span class="project-badge badge-ml">ML</span>
+                <span class="project-badge badge-dl">DL</span>
+                <span class="project-badge badge-cv">CV</span>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/alexcega/Image-Tracking-Project/blob/main/README.md', '_blank')"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+
       </div>
       <img
         src="./assets/arrow.png"
