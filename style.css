@@ -462,6 +462,9 @@ article .icon {
 .badge-genai{
   background-color: #e74c3c;  /* red-ish */
 }
+.badge-xai{
+  background-color: #3ccde7;  /* red-ish */
+}
 
 .color-container {
   border-color: rgb(163, 163, 163);
